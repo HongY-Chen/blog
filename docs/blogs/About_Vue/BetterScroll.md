@@ -77,7 +77,7 @@ disableTouch: false//启用手指触摸
       click: {
         //点击列表是否派发click事件
         type: Boolean,
-        default: false
+        default: true
       },
       // 是否开启横向滚动
       scrollX: {

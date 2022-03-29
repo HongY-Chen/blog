@@ -99,7 +99,7 @@ xhr.abort()
 + Referer：发送请求的页面的URL  
 + User-Agent：浏览器的用户代理字符串  
 
-这些通常都是会发送的，如果需要额外的请求头部，可以使用setRequestHeader() 方法。这个方法接受两个参数：头部字段的名称和值。为保证请求头部被发送，必须在open() 之后，send() 之前调用serRequestHeader()。  
+这些通常都是会发送的，如果需要额外的请求头部，可以使用setRequestHeader() 方法。这个方法接受两个参数：头部字段的名称和值。为保证请求头部被发送，必须在open() 之后，send() 之前调用setRequestHeader()。  
 
 下面是一个例子：我们发送Post请求的时候，会把Content-Type头部设置为"application/x-www-formurlencoded",这是因为对服务器而言Post请求与提交表单是不一样的，所以我们要模拟表单提交  
 ```js

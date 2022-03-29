@@ -35,7 +35,7 @@ module.exports = {
     subSidebar: 'auto',
     // 最后更新时间
     lastUpdated: 'Last Updated',
-    record: '琼ICP备2021000953号',
+    record: '琼ICP备2022002265号',
     recordLink: 'http://beian.miit.gov.cn/',
     startYear: '2021'
   },
@@ -45,7 +45,7 @@ module.exports = {
   plugins: [
     ["vuepress-plugin-auto-sidebar", { collapsable: true }],//自动侧边栏
     ["@vuepress-reco/vuepress-plugin-pagation", {}],//分页插件
-    ['cursor-effects'], //鼠标点击插件
+    // ['cursor-effects'], //鼠标点击插件
     // ['ribbon'], //丝带背景插件
     //复制弹窗
     ["vuepress-plugin-nuggets-style-copy", {
